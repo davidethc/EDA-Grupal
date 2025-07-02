@@ -1,5 +1,4 @@
 # EDA-Grupal
-<<<<<<< HEAD
 Proyecto grupal de programcion avanzada
 =======
 
