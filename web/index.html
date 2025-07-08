@@ -4,24 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDA</title>
+    <link rel="stylesheet" href="desing.css">
 </head>
 <body>
     <h1>Análisis Exploratorio de Datos</h1>
     <hr>
     <p>
-        Proyecto enfatizado a un análisis exploratorio de datos sobre un conjunto de datos del registro de nacidos vivos en 
-        Ecuador en el año 2023.
+        La estadística de nacidos vivos constituye una de las herramientas fundamentales para el análisis demográfico y la 
+        planificación de políticas públicas en Ecuador. El Instituto Nacional de Estadística y Censos (INEC) es el organismo
+         encargado de la recolección, procesamiento y publicación anual de estos datos, que permiten cuantificar los hechos 
+         vitales ocurridos e inscritos en el país. Esta información resulta esencial tanto para el sector público como privado, 
+         ya que facilita la toma de decisiones y el diseño de estrategias socioeconómicas orientadas al bienestar de la población.
+        <br>
+        El registro estadístico de nacidos vivos no solo refleja la dinámica poblacional, sino que también permite identificar tendencias, 
+        desafíos y oportunidades en el ámbito de la salud materno-infantil, el acceso a servicios médicos y la distribución 
+        geográfica de los nacimientos. En el año 2024, por ejemplo, se reportaron oficialmente 215.714 nacidos vivos en Ecuador, 
+        cifra que ilustra la magnitud y relevancia de este fenómeno para el país.
+        <br>
+        Sin embargo, es importante considerar que, como sucede en muchos procesos de recolección masiva de datos, pueden existir inconsistencias,
+         registros incompletos o errores en la base de datos original. Por ello, el análisis exploratorio de datos (EDA) que presentamos a 
+         continuación tiene como objetivo no solo describir las principales características de los nacimientos ocurridos en Ecuador durante 
+         el año 2023, sino también identificar posibles anomalías y proponer recomendaciones para mejorar la calidad de los datos.
+        <br>
+        Este artículo está dirigido a investigadores, estudiantes, profesionales de la salud y público en general interesado en comprender la 
+        situación demográfica del país a partir de información oficial. A través de visualizaciones, estadísticas descriptivas y un análisis
+         crítico de la base de datos, buscamos aportar una visión clara y fundamentada sobre los nacidos vivos en Ecuador, contribuyendo así 
+         al debate y la generación de conocimiento en torno a la población ecuatoriana.
     </p>
+    <br>
     <h2>Fuente principal</h2>
     <hr>
-    <p>Para comenzar con toda nuestra investigación nos apoyamos principalmente de un estudio ya hecho por el Instituto Nacional 
-        de Estadística y Censos (INEC) de Ecuador, el cual se puede encontrar en el siguiente enlace:
-        <a href="https://www.ecuadorencifras.gob.ec/estadisticas/">Estadísticas del INEC</a>. <br>Este mismo nos proporcionó un conjunto de datos
-        dentro de un solo archivo que contiene información detallada sobre los nacimientos en Ecuador durante el año 2023. La información 
-        recolectada a través de la investigación contribuye a la formulación de estrategias socioeconómicas del país y representa una 
-        herramienta esencial de análisis demográfico tanto para el sector público como privado.<br>
-        Durante el año 2023, se reportaron 238.772 nacimientos vivos y 1.309 muertes fetales. 
+    <p>
+        La fuente principal de información utilizada para este análisis es el 
+        <a href="https://www.ecuadorencifras.gob.ec/nacidos-vivos-y-defunciones-fetales/" target="_blanck">Registro Estadístico de Nacidos Vivos 2023</a>, 
+        elaborado y publicado por el <a href="https://www.ecuadorencifras.gob.ec/estadisticas/" target="_blank">Instituto Nacional de Estadística y 
+         Censos (INEC)</a>. Este registro recopila y consolida los datos de todos los nacimientos ocurridos e inscritos en Ecuador durante el año 2023, 
+         a partir de los formularios oficiales completados por el personal de salud autorizado y validados por las instituciones correspondientes.
+        <br>
+        La información es procesada y publicada anualmente, permitiendo así el acceso a estadísticas vitales de cobertura nacional, provincial y cantonal. 
+        El INEC garantiza la calidad y consistencia de los datos a través de procesos de validación y depuración, integrando registros provenientes del 
+        Sistema Nacional de Registro de Datos Vitales (REVIT) y del Sistema Integrado de Estadísticas Vitales y de Salud (SIES)</a>.
+        <br>
+        Para quienes deseen consultar el conjunto completo de datos, la página oficial del INEC ofrece acceso público a los archivos, informes y 
+        documentación metodológica sobre nacidos vivos y defunciones fetales. Recomendamos a los usuarios interesados en mayor detalle o en la descarga 
+        directa de los datos, visitar la sección correspondiente en el sitio web del INEC, donde encontrarán la información actualizada y los recursos 
+        adicionales necesarios para su propio análisis.
+
     </p>
+    <br>
     <h2>Software Utilizado</h2>
     <hr>
     <p>Apache Zeppelin</p>
@@ -31,7 +61,14 @@
     <nav>
         <button onclick="location.href='about.html'">Sobre nosotros</button><br>
         <button onclick="location.href='article.html'">Artículo de Estadísticas</button><br>
-        <button onclick="location.href='prompts.html'">Prompts de Evidencia</button><br>
     </nav>
+    <footer>
+        <hr>
+        <p class="footer-text">
+            &copy; 2025 Análisis Exploratorio de Datos - Nacidos Vivos en Ecuador.<br>
+            Proyecto académico para fines educativos. Datos: <a href="https://www.ecuadorencifras.gob.ec/" target="_blank">INEC</a>.<br>
+            Desarrollado por el equipo EDA-Grupal.
+        </p>
+    </footer>
 </body>
 </html>
