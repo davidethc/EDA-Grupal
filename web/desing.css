@@ -77,3 +77,13 @@ ul {
         margin: 0.5em 0;
     }
 }
+
+/* Contenedor de las imágenes y descripciones */
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
