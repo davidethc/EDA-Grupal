@@ -9,8 +9,339 @@
 <body>
     <h1>Artículo de Estadísticas</h1>
     <hr>
-    <p>En apartado es sobre nuestra investigación realizada con la ayuda de Apache Zeppelin</p>
+    <p> En un mundo cada vez más impulsado por los datos, el análisis estadístico se ha convertido en una herramienta esencial para 
+        comprender la realidad que nos rodea. Este artículo presenta un resumen detallado de los principales indicadores recolectados 
+        en el último periodo, con el objetivo de ofrecer una visión clara y precisa sobre aspectos demográficos, sociales y económicos 
+        relevantes. A través de gráficos interactivos y datos actualizados, se busca facilitar la interpretación de los resultados, permitiendo
+         tanto a investigadores como a ciudadanos tomar decisiones informadas y fundamentadas. Esta información también contribuye al diseño de 
+         políticas públicas más efectivas y al desarrollo estratégico de diversos sectores del país.
+    </p>
+    
+    <h2>Datos claves</h2>
+    <hr>
+    <p>
+        Según los datos publicados por el Instituto Nacional de Estadística y Censos (INEC), la tasa de natalidad en Ecuador para el año 2024 
+        fue de 12 nacidos vivos por cada 1.000 habitantes, con un total de 215.714 nacimientos registrados. De estos, el 51,17% (110,398.34) correspondieron 
+        a hombres y el 48,83% (105,315.66) a mujeres, lo que mantiene una distribución relativamente equilibrada por sexo al nacer.
+        <br>
+        Sin embargo, de acuerdo con los resultados obtenidos en nuestra propia investigación, se observan ligeras variaciones en estos valores. 
+        Aunque la tasa general de natalidad se mantiene cercana al promedio nacional, los nacimientos registrados en nuestra muestra indican una 
+        proporción distinta: tenemos el registro de 241295 personas haciendo una diferencia de 25581. el 57.12% (123239) fueron hombres y el 42.88% (123239) mujeres. 
+        Esta diferencia, aunque no drástica, podría estar relacionada con factores geográficos, metodológicos o incluso poblacionales propios del área de estudio.
+        <br>
+        Estas discrepancias resaltan la importancia de complementar los datos oficiales con estudios independientes, ya que permiten profundizar 
+        en dinámicas locales o sectoriales que podrían no estar reflejadas en las estadísticas a nivel nacional. Asimismo, refuerzan la necesidad 
+        de un análisis continuo y detallado para una mejor comprensión de las tendencias demográficas del país.
+    </p>
+    
     <h2>Visualizaciones</h2>
+    <hr>
+    
+    <h2>¿Cuántas personas nacieron vivas y cuantas han muerto después del parto?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753845423363_1356855441"
+            width="80%"
+            height="100"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Comparación de nacidos vivos y nacidos vivos pero luego murieron</figcaption>
+    </figure>
+    <br>
+    <p>
+        Comparar el total de nacidos vivos con el número de nacidos vivos que posteriormente fallecieron permite dimensionar la magnitud de la mortalidad 
+        neonatal y posneonatal en Ecuador.
+        En el último periodo registrado, se reportaron 496,526 nacidos vivos en el país. De ellos, 5,611 niños y niñas fallecieron posteriormente, 
+        lo que representa aproximadamente un 1.1% del total de nacidos vivos. Este indicador es clave para analizar la calidad de la atención materno-infantil, 
+        así como para identificar avances y desafíos en la prevención de muertes tempranas entre recién nacidos.<br>
+        Presentar estos datos brinda una perspectiva clara sobre la importancia de invertir en salud materna y neonatal, y llama la atención sobre la necesidad 
+        de reforzar intervenciones de seguimiento y atención a los recién nacidos en el país.
+    </p>
+    <h2>¿Cómo fue el peso y la talla de los recién nacidos en Ecuador durante el 2023?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753931237663_1315729718"
+            width="15%"
+            height="70"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        En el año 2023, se registró un promedio de talla de 48.55 cm entre los recién nacidos evaluados, lo que representa una disminución del 1.92% en 
+        comparación con el promedio de talla nacional, estimado en 49.5 cm.
+    </p> 
+
+    <br>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753931177852_357405567"
+            width="15%"
+            height="70"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        El peso promedio al nacer de 3,068.72 g junto con la talla de 48.55 cm reflejan un desarrollo fetal generalmente adecuado, dentro de los parámetros 
+        de la OMS, aunque en el límite inferior del rango esperado (2,500-4,000 g y 47-53 cm). Esta combinación sugiere una proporcionalidad normal (IMC 
+        neonatal estimado: ~13 kg/m²), pero revela posibles factores influyentes como nutrición materna subóptima (especialmente en zonas rurales o de 
+        altitud), restricciones leves de crecimiento intrauterino o diferencias genéticas regionales. La correlación talla-peso, clave para evaluar el 
+        crecimiento armónico, indica que los recién nacidos ecuatorianos mantienen un equilibrio global, aunque con margen de mejora en aspectos prevenibles 
+        como el control prenatal y la suplementación nutricional durante el embarazo.
+    </p>    
+    <br>
+    
+    <br>
+    <h2>¿Cuáles son los registros con respecto a las madres que han asistido a controles pre-natales?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753772519329_1922826375"
+            width="80%"
+            height="200"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Registro de casos independiente de la prescencia de controles pre-natales</figcaption>
+    </figure>
+    <br>
+    <p>
+        En la estadística presentada se observa la distribución de los registros de nacidos vivos según si las madres asistieron a controles prenatales y 
+        si experimentaron la pérdida de un hijo. De un total considerable, la mayoría de las madres confirmó haber asistido a controles prenatales, mientras 
+        que un grupo menor no lo hizo. Los conteos exactos para cada categoría permiten identificar cuántas madres, según su asistencia a controles, afrontaron 
+        la pérdida de un hijo o no, lo que proporciona información clave para analizar la relación entre el acceso a controles prenatales y los desenlaces 
+        adversos.
+    </p>
+    <br>
+    <h2>¿Cual es el tipo de parto más común según cada etnia del Ecuador?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753883694369_1676612065"
+            width="80%"
+            height="400"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Conteo de tipo de parto registrado por etnia</figcaption>
+    </figure>
+    <br>
+    <p>
+        En cuanto al tipo de parto por grupo étnico, los datos muestran diferencias claras: en las etnias mestiza y blanca predomina el parto por cesárea 
+        (con 112,554 y 498 casos respectivamente), mientras que en otros grupos como indígena, negra, afroecuatoriana, montubia y mulata, la mayoría de 
+        los nacimientos son por parto normal. Esto se vincula con aspectos socioeconómicos, médicos y culturales que influyen en el acceso y las preferencias 
+        de atención al parto.<br>
+
+    </p>
+    <br>
+    <h2>¿Cual es el número de partos según la edad de la madre?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753736678528_440386646"
+            width="80%"
+            height="300"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Número de partos por edad de la madre.</figcaption>
+    </figure>
+    <br>
+    <p>
+        La gráfica muestra el número total de partos distribuidos según la edad de la madre. Se observa que la cantidad de partos comienza a aumentar 
+        notablemente a partir de los 15 años, alcanzando su pico máximo alrededor de los 23 años de edad. Luego, a partir de ese pico, la cantidad de partos 
+        disminuye de manera gradual conforme aumenta la edad de la madre, con un descenso continuo hasta llegar a la edad de 45 años.<br>
+        Este patrón indica que las mujeres jóvenes, especialmente en su segunda década de vida, concentran la mayoría de los partos, siendo común que la 
+        maternidad ocurra en edades tempranas y adultas jóvenes en Ecuador. La disminución progresiva en edades mayores refleja tanto factores biológicos 
+        como sociales y de planificación familiar.<br>
+        El hecho de que la mayoría de los partos en Ecuador ocurran en mujeres jóvenes, especialmente entre los 15 y 24 años, refleja retos importantes en 
+        salud pública y educación. La maternidad temprana suele estar ligada a la falta de acceso a educación sexual integral, desigualdades sociales y 
+        económicas, y puede aumentar los riesgos para la salud de la madre y el bebé. Además, contribuye a perpetuar ciclos de pobreza, al limitar oportunidades 
+        educativas y laborales para estas mujeres. Por ello, es fundamental fortalecer programas de prevención, educación sexual y apoyo social para mejorar 
+        la calidad de vida de madres jóvenes y sus hijos, y reducir los impactos negativos de esta realidad.
+    </p>
+    <br>
+    <h2>¿De cuánto es el peso promedio de los recién nacidos según la edad de la madre?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753773894890_66398722"
+            width="80%"
+            height="200"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Peso promedio por edad de la madre</figcaption>
+    </figure>
+    <br>
+    <p>
+        La tabla muestra el peso promedio al nacer de los recién nacidos según el rango de edad de la madre en Ecuador. Se observa que el peso promedio 
+        es muy similar en todos los grupos, oscilando alrededor de los 3,000 gramos:
+    </p>        
+        <ul>
+            <li>Madres entre 20 y 29 años tienen un peso promedio de 3,074.40 gramos.</li>
+            <li>Madres entre 30 y 39 años presentan un peso promedio ligeramente mayor, de 3,100.63 gramos.</li>
+            <li>En madres de 40 años y más, el peso promedio es de 3,060.80 gramos.</li>
+            <li>Finalmente, en madres menores de 20 años, el peso promedio es el más bajo entre los grupos, con 2,988.68 gramos.</li>
+        </ul>
+    <p>    
+        Esta ligera variación indica que, en general, la edad de la madre no influye de manera significativa en el peso al nacer, aunque se puede 
+        notar que las madres más jóvenes tienen un peso promedio un poco menor, lo que podría estar asociado a factores biológicos y nutricionales 
+        comunes en embarazos tempranos.
+    </p>
+    <br>
+    <h2>¿Existe una mayor incidencia de partos por cesárea y complicaciones neonatales en casos con bajo peso al nacer y escasos controles prenatales?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753845527689_1832748572"
+            width="80%"
+            height="150"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Compara si los casos de bajo peso y pocos controles tienen más probabilidades de tener cesárea o complicaciones en el parto.</figcaption>
+    </figure>
+    <br>
+    <p>
+        Los datos revelan que, aunque los casos con 'Riesgo controlado' presentan una tasa de cesáreas más baja que el promedio nacional (42.46% vs 49.37%), 
+        registran una mayor incidencia de complicaciones neonatales (20.59% vs 3.09%). Esto podría deberse a que este grupo incluye embarazos de alto riesgo 
+        con seguimiento médico, donde aun con controles, persisten factores como prematurez o comorbilidades. Por otro lado, la alta tasa de cesáreas en la 
+        población general sugiere que la falta de acceso a controles prenatales adecuados podría derivar en intervenciones quirúrgicas evitables. Se necesitan 
+        estudios que crucen variables como peso al nacer y número de controles para confirmar estas hipótesis.
+    </p>
+    <br>
+    <h2>¿Qué porcentaje de nacimientos corresponde a áreas urbanas frente a rurales?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753892216006_1967231847"
+            width="35%"
+            height="300"
+            style="border:1px solid #ccc;">
+        </iframe>
+        <figcaption>Distribución de nacimientos en Ecuador por área (Urbana vs. Rural)</figcaption>
+    </figure>
+    <br>
+    <p>
+        La distribución de nacimientos evidencia una marcada concentración en zonas urbanas (94.1%), frente a un mínimo 5.9% en áreas rurales. 
+         Esta brecha podría relacionarse con la centralización de servicios médicos, migración interna durante el embarazo o subregistros en regiones 
+         remotas. El gráfico resume esta desigualdad, clave para políticas públicas de descentralización en salud materna.
+    </p>
+
+    <br>
+    <h2>¿Cómo se distribuyen los partos según su tipo y el establecimiento de salud en Ecuador?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753888438695_873404660"
+            width="60%"
+            height="475"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        Los datos disponibles muestran la distribución de partos normales y por cesárea en diferentes establecimientos de salud del país, 
+        es posible identificar tres categorías principales de establecimientos:<br>
+    </p>
+    <ul>
+        <li>Establecimientos de la Junta de Beneficencia</li>
+        <li>Establecimientos del IESS (Instituto Ecuatoriano de Seguridad Social)</li>
+        <li>Hospitales o Clínicas Privadas</li>
+    </ul>
+    <h3>Hallazgos principales:</h3>
+    <ul>
+        <li><strong>Establecimientos de la Junta de Beneficencia:</strong> Presentan una marcada preferencia por cesáreas, con 897 casos frente a solo 117 
+            partos normales registrados. Esto podría indicar que atienden principalmente casos de alto riesgo o seguir protocolos quirúrgicos más frecuentes.</li>
+        <li><strong>Establecimientos del IESS: </strong>Registran el mayor volumen de cesáreas (13,338) en comparación con partos normales (6,393), lo que 
+            representa una tasa de cesáreas del 67.6%. Esta alta proporción merecería un análisis más profundo sobre sus protocolos obstétricos.</li>
+        <li><strong>Ministerio de Salud Pública: </strong>Muestra el mayor número absoluto de partos, con predominio de partos vaginales (99,294) sobre 
+            cesáreas (51,318), lo que sugiere políticas más conservadoras en cuanto a intervenciones quirúrgicas.</li>
+        <li><strong>Clínicas Privadas: </strong>Presentan una proporción más equilibrada, con 6,595 partos normales y 2,317 cesáreas, posiblemente 
+            reflejando tanto preferencias de las pacientes como criterios médicos diferenciados.</li>
+    </ul>
+
+    <br>
+    <h2>¿Cómo ha evolucionado el peso promedio al nacer según el tipo de parto entre 2015 y 2023 en Ecuador?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753888716401_1056623238"
+            width="45%"
+            height="440"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        El análisis revela diferencias significativas en el peso promedio al nacer según el tipo de parto. Los recién nacidos por parto vaginal mantuvieron 
+        sistemáticamente mayores pesos (3,250-3,400 g) frente a los nacidos por cesárea (3,000-3,150 g), con una brecha estable de 150-250 gramos. 
+        Esta disparidad podría relacionarse con la mayor edad gestacional típica de los partos normales. Entre 2015-2018 se observó una ligera alza en 
+        ambos grupos, seguida de un descenso marcado durante la pandemia (2019-2021), sugiriendo el impacto del estrés materno o reducción en controles 
+        prenatales.<br>
+        <strong>Variaciones y Factores Asociados</strong><br>
+        La recuperación parcial postpandemia (2022-2023) no alcanzó los niveles prepandémicos, lo que alerta sobre posibles secuelas en la salud fetal. 
+        Las cesáreas mostraron mayor sensibilidad a estas fluctuaciones, reforzando la hipótesis de su asociación con interrupciones tempranas del desarrollo 
+        gestacional. Estos hallazgos destacan la necesidad de investigar variables complementarias como calidad nutricional materna, frecuencia de controles 
+        prenatales y protocolos de programación de cesáreas, que podrían explicar las diferencias observadas y su impacto en la salud neonatal.
+    </p>
+    <br>
+    <h2>¿Cuál es la distribución de las etnias por provincia en Ecuador?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753893324950_841631006"
+            width="55%"
+            height="550"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        Los datos muestran una marcada diversidad étnica entre las provincias ecuatorianas. La población mestiza predomina en todas las regiones, 
+        siendo especialmente numerosa en Guayas (55,954), Manabí (21,766) y Los Ríos (15,652). Le siguen en importancia las comunidades indígenas, con 
+        concentraciones significativas en Chimborazo (1,635), Cotopaxi (677) e Imbabura (1,645). La población afroecuatoriana destaca en Esmeraldas (1,667) 
+        y Guayas (465), mientras que la blanca tiene mayor presencia en Pichincha (424) y Guayas (625). Provincias amazónicas como Morona Santiago (2,363) y 
+        Napo (1,734) registran altos números de población indígena, reflejando patrones de asentamiento históricos.<br>
+        <strong>Variaciones Regionales y Grupos Étnicos</strong><br>
+        Algunas particularidades llamativas incluyen: la población montubia, concentrada en Guayas (311) y Los Ríos (22); la negra en Esmeraldas (275); y 
+        los casos de "sin información" en Zamora Chinchipe (104). Esta distribución evidencia cómo factores históricos, geográficos y migratorios han moldeado 
+        el mapa étnico del país. Las provincias con mayor diversidad son Pichincha y Guayas, que albergan cantidades significativas de casi todos los grupos. 
+        Estos datos son cruciales para diseñar políticas públicas culturalmente pertinentes, especialmente en salud y educación, que consideren las 
+        particularidades de cada grupo y territorio.
+    </p>
+    <br>
+    <h2>¿Cuántas defunciones fetales se registraron según el sexo del feto?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753929725706_944702674"
+            width="50%"
+            height="420"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        La gráfica muestra la evolución mensual del número total de bebés fallecidos al nacer, desagregados por sexo (hombres y mujeres). A partir de los datos, 
+        se puede observar cómo varía la mortalidad neonatal entre los diferentes meses del año. Esta visualización permite identificar posibles patrones 
+        estacionales o diferencias entre los sexos en términos de mortalidad al momento del nacimiento.
+    </p>
+    <br>
+    <h2>¿Cómo varían las defunciones fetales según la edad gestacional?</h2>
+    <figure>
+        <iframe
+            src="http://localhost:8080/#/notebook/2KXBFGKK5/paragraph/paragraph_1753930204276_1290105324"
+            width="50%"
+            height="420"
+            style="border:1px solid #ccc;">
+        </iframe>
+    </figure>
+    <br>
+    <p>
+        Los datos presentados muestran una distribución de mortalidad fetal según semanas de gestación, revelando patrones críticos para la salud pública 
+        materno-infantil. Se observa que las defunciones fetales ocurren en todo el espectro gestacional, desde la semana 25 (considerada muy prematura) 
+        hasta la semana 42.5 (postérmino), con una concentración particular entre las semanas 32.5 y 40. Este rango coincide con el periodo perinatal de 
+        mayor vulnerabilidad, donde factores como restricción del crecimiento intrauterino, complicaciones placentarias o infecciones suelen ser causas 
+        frecuentes de muerte fetal.
+    </p>
+    <br>
+    <br>
     <a href="index.html"><button>Volver al inicio</button></a>  
+    <footer>
+        <hr>
+        <p class="footer-text">
+            &copy; 2025 Análisis Exploratorio de Datos - Nacidos Vivos en Ecuador.<br>
+            Proyecto académico para fines educativos. Datos: <a href="https://www.ecuadorencifras.gob.ec/" target="_blank">INEC</a>.<br>
+            Desarrollado por el equipo EDA-Grupal.
+        </p>
+    </footer>
 </body>
 </html>
